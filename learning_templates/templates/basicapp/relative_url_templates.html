@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Relative</title>
+    </head>
+    <body>
+        <h1>Welcome to RElative URL Templates</h1>
+        <a href="{% url 'basicapp:other' %}">The other</a>
+        <a href="{% url 'admin:index' %}"> Admin </a>
+        <a href="{% url 'index' %}">index</a>
+    </body>
+</html>
